@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - CentofantiEze
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ARGOS-telescope/argosim
+  - CentofantiEze/sed_spectral_classification
+  - CosmoStat/wf-psf
+  - CentofantiEze/FBResNet
