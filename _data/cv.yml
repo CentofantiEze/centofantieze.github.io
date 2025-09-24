@@ -11,16 +11,12 @@
 - title: Education
   type: time_table
   contents:
-    # - title: PhD
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1905
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
+    - title: PhD
+      institution: CEA & Université Paris Cité, Paris, France
+      year: 2023 - Present
+      description:
+        - Machine learning and artificial intelligence methods for optical and radio astronomical imaging.
+        - Advisor: Dr. Samuel Farrens & Dr. Jean-Luc Starck.
     - title: Master M2 SISEA
       institution: IMT Atlantique, Brest, France
       year: 2022
