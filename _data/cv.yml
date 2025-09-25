@@ -16,7 +16,7 @@
       year: 2023 - Present
       description:
         - Machine learning and artificial intelligence methods for optical and radio astronomical imaging.
-        - Advisor: Dr. Samuel Farrens & Dr. Jean-Luc Starck.
+        - "Advisors: Dr. Samuel Farrens & Dr. Jean-Luc Starck."
     - title: Master M2 SISEA
       institution: IMT Atlantique, Brest, France
       year: 2022
@@ -27,8 +27,8 @@
       institution: IMT Atlantique, Brest, France
       year: 2022
       description:
-        - M2: Machine and deep learning, computer vision, optimisation and numerical methods.
-        - M1: Embedded systems, FPGA programming and circuit design.
+        - "M2: Machine and deep learning, computer vision, optimisation and numerical methods."
+        - "M1: Embedded systems, FPGA programming and circuit design."
     - title: Electrical Engineering Degree
       institution: University of Buenos Aires, Buenos Aires, Argentina
       year: 2019
@@ -81,12 +81,16 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - Distinguished student, University of Buenos Aires.
     - year: 2021
       items:
-        - EIFFEL Excellence scholarship, French Ministry of Foreign Affairs
-    - year: 2019
+        - Academic distinction for international double degree.
+    - year: 2020
       items:
-        - Distinguesh student, University of Buenos Aires
+        - EIFFEL Excellence scholarship, French Ministry of Foreign Affairs.
+
 
 
 # - title: Academic Interests
