@@ -6,7 +6,7 @@ subtitle: <a href='https://www.cosmostat.org'>CosmoStat</a>, <a href='https://ir
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <i class="fas fa-envelope"></i> <a href="mailto:ezequiel.centofanti@cea.fr">ezequiel.centofanti@cea.fr</a>
