@@ -56,7 +56,7 @@
       year: 2022
       description:
         - Development of a PSF estimation model for the European Space Agency Euclid mission.
-        - Tensorflow, Python, HPC. 
+        - Tensorflow, Python, HPC.
 
     - title: M1 Internship
       institution: IMT Atlantique & THALES Group, Brest, France
@@ -90,9 +90,6 @@
     - year: 2020
       items:
         - EIFFEL Excellence scholarship, French Ministry of Foreign Affairs.
-
-
-
 # - title: Academic Interests
 #   type: nested_list
 #   contents:
