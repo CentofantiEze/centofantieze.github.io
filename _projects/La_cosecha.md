@@ -1,11 +1,9 @@
 ---
 layout: page
 title: La Cosecha
-description: Vincent Van Gogh
 img: assets/img/art_thumb/La_cosecha.jpg
 importance: 1
 category: landscapes
-related_publications: true
 ---
 
 <div class="row">
