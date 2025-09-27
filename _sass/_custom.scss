@@ -1,5 +1,5 @@
 .painting-img {
-  max-height: 90vh; /* limit vertical size */
+  max-height: 80vh; /* limit vertical size */
   width: auto; /* keep natural aspect ratio */
   height: auto; /* let browser handle scaling */
   display: block; /* allows margin auto to work */
@@ -14,5 +14,7 @@
 
 /* Optional: tighten padding since the title is gone */
 .project-card .card-body {
-  padding: 0.5rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
 }
