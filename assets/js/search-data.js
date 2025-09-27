@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-gallery",
+          title: "Gallery",
+          description: "A gallery of my paintings and artwork.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "All my code is open source and available on GitHub.",
@@ -30,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "projects-la-cosecha",
+          title: 'La Cosecha',
+          description: "Vincent Van Gogh",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/La_cosecha.html";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
