@@ -4,7 +4,7 @@ title: Gallery
 permalink: /projects/
 description: A gallery of my paintings and artwork.
 nav: true
-nav_order: 3
+nav_order: 5
 display_categories: [landscapes, portraits, abstract, still_life]
 horizontal: false
 ---
