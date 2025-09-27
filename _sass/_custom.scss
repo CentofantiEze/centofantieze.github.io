@@ -1,8 +1,10 @@
 .painting-img {
-  max-height: 90vh; /* never taller than 90% of the screen */
-  width: auto; /* keep aspect ratio */
+  max-height: 90vh; /* limit vertical size */
+  width: auto; /* keep natural aspect ratio */
   height: auto; /* let browser handle scaling */
-  margin: auto;
+  display: block; /* allows margin auto to work */
+  margin-left: auto; /* center horizontally */
+  margin-right: auto;
 }
 
 /* Hide project titles on gallery grid */
