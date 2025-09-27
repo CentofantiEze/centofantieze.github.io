@@ -12,5 +12,5 @@ category: landscapes
     </div>
 </div>
 <div class="caption">
-    Campo de girasoles en Pouzané, Brest, Francia. Acrílico sobre lienzo.
+    Campo de girasoles en Plouzané, Brest, Francia. Acrílico sobre lienzo.
 </div>

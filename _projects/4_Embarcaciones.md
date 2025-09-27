@@ -12,5 +12,5 @@ category: landscapes
     </div>
 </div>
 <div class="caption">
-    Paisaje naval. Tinta y lapices de colores sobre papel.
+    Paisaje naval. Tinta negra y lápices de colores sobre papel.
 </div>
