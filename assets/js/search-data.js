@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-gallery",
-          title: "Gallery",
-          description: "A gallery of my paintings and artwork.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "All my code is open source and available on GitHub.",
@@ -37,9 +30,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-la-cosecha",
+        },{id: "nav-gallery",
+          title: "Gallery",
+          description: "A gallery of my paintings and artwork.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "projects-campo-de-girasoles",
+          title: 'Campo de girasoles',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Brest.html";
+            },},{id: "projects-embarcaciones",
+          title: 'Embarcaciones',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Embarcaciones.html";
+            },},{id: "projects-girasoles",
+          title: 'Girasoles',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Girasoles.html";
+            },},{id: "projects-glenn-gould",
+          title: 'Glenn Gould',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Glenn_gould.html";
+            },},{id: "projects-la-cosecha",
           title: 'La Cosecha',
-          description: "Vincent Van Gogh",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/La_cosecha.html";
             },},{
