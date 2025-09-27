@@ -5,6 +5,12 @@
   margin: auto;
 }
 
-.project-card .card-title {
-  display: none;
+/* Hide project titles on gallery grid */
+.card-title {
+  display: none !important;
+}
+
+/* Optional: tighten padding since the title is gone */
+.project-card .card-body {
+  padding: 0.5rem;
 }
