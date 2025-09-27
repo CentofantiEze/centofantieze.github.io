@@ -37,31 +37,31 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-campo-de-girasoles",
-          title: 'Campo de girasoles',
+        },{id: "projects-la-cosecha",
+          title: 'La Cosecha',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Brest.html";
-            },},{id: "projects-embarcaciones",
-          title: 'Embarcaciones',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Embarcaciones.html";
+              window.location.href = "/projects/1_La_cosecha.html";
             },},{id: "projects-girasoles",
           title: 'Girasoles',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Girasoles.html";
+              window.location.href = "/projects/2_Girasoles.html";
             },},{id: "projects-glenn-gould",
           title: 'Glenn Gould',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Glenn_gould.html";
-            },},{id: "projects-la-cosecha",
-          title: 'La Cosecha',
+              window.location.href = "/projects/3_Glenn_gould.html";
+            },},{id: "projects-embarcaciones",
+          title: 'Embarcaciones',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/La_cosecha.html";
+              window.location.href = "/projects/4_Embarcaciones.html";
+            },},{id: "projects-campo-de-girasoles",
+          title: 'Campo de girasoles',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_Brest.html";
             },},{
         id: 'social-email',
         title: 'email',
