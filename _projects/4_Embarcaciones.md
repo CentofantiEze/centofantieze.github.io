@@ -2,7 +2,7 @@
 layout: page
 title: Embarcaciones
 img: assets/img/art_thumb/Embarcaciones.jpg
-importance: 1
+importance: 4
 category: landscapes
 ---
 

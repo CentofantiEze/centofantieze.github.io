@@ -2,7 +2,7 @@
 layout: page
 title: Girasoles
 img: assets/img/art_thumb/Brest.jpg
-importance: 1
+importance: 2
 category: still_life
 ---
 

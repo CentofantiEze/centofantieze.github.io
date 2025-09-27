@@ -2,7 +2,7 @@
 layout: page
 title: Campo de girasoles
 img: assets/img/art_thumb/Brest.jpg
-importance: 1
+importance: 5
 category: landscapes
 ---
 
