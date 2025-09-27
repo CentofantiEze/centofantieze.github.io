@@ -1,6 +1,10 @@
 .painting-img {
-  max-height: 90vh;   /* never taller than 90% of the screen */
-  width: auto;        /* keep aspect ratio */
-  height: auto;       /* let browser handle scaling */
+  max-height: 90vh; /* never taller than 90% of the screen */
+  width: auto; /* keep aspect ratio */
+  height: auto; /* let browser handle scaling */
   margin: auto;
+}
+
+.project-card .card-title {
+  display: none;
 }
