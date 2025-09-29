@@ -1,23 +1,60 @@
-.painting-img {
-  max-height: 80vh; /* limit vertical size */
-  width: auto; /* keep natural aspect ratio */
-  height: auto; /* let browser handle scaling */
-  display: block; /* allows margin auto to work */
-  margin-left: auto; /* center horizontally */
-  margin-right: auto;
-}
+// .painting-img {
+//   max-height: 80vh; /* limit vertical size */
+//   width: auto; /* keep natural aspect ratio */
+//   height: auto; /* let browser handle scaling */
+//   display: block; /* allows margin auto to work */
+//   margin-left: auto; /* center horizontally */
+//   margin-right: auto;
+// }
 
-/* Hide project titles on gallery grid */
-.card-title {
-  display: none !important;
-}
-.card-description {
-  display: none !important;
-}
+// /* Hide project titles on gallery grid */
+// .card-title {
+//   display: none !important;
+// }
+// .card-description {
+//   display: none !important;
+// }
 
-/* Optional: tighten padding since the title is gone */
+// /* Optional: tighten padding since the title is gone */
+// .project-card .card-body {
+//   padding: 0 !important;
+//   margin: 0 !important;
+//   min-height: 0 !important;
+// }
+
+/* ---------- Hide titles / descriptions / card body ---------- */
 .project-card .card-body {
+  display: none !important;
+}
+
+/* remove any background/padding the card body left behind */
+.project-card .card {
+  background: transparent !important;
+  box-shadow: none !important;
   padding: 0 !important;
   margin: 0 !important;
-  min-height: 0 !important;
+}
+
+/* ---------- Make thumbnail images square and cropped ---------- */
+/* Target common selectors used by al-folio; keep broad to match your version */
+.project-card img,
+.project-card .card-img-top,
+.project-card .figure img {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 1 / 1; /* makes a square tile */
+  object-fit: cover; /* crop to fill the square while preserving center */
+  object-position: center;
+}
+
+/* tighten grid spacing */
+.project-card {
+  margin-bottom: 0.8rem;
+}
+
+/* if grid columns have inner padding, you can remove it */
+.project-card .card > .card-img-top,
+.project-card .card > img {
+  padding: 0;
 }
