@@ -42,6 +42,26 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_pescadores.html";
+            },},{id: "projects-caballero",
+          title: 'Caballero',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_Caballero_2.html";
+            },},{id: "projects-pont-neuf",
+          title: 'Pont Neuf',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_Pont_Neuf.html";
+            },},{id: "projects-puerto-de-heraklion",
+          title: 'Puerto de Heraklion',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_Puerto_de_Creta.html";
+            },},{id: "projects-pilares-de-la-creación",
+          title: 'Pilares de la Creación',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_Pilares_de_la_creacion.html";
             },},{id: "projects-la-cosecha",
           title: 'La Cosecha',
           description: "",
