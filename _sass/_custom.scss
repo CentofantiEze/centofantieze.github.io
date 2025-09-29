@@ -7,20 +7,20 @@
   margin-right: auto;
 }
 
-// /* Hide project titles on gallery grid */
-// .card-title {
-//   display: none !important;
-// }
-// .card-description {
-//   display: none !important;
-// }
+/* Hide project titles on gallery grid */
+.card-title {
+  display: none !important;
+}
+.card-description {
+  display: none !important;
+}
 
-// /* Optional: tighten padding since the title is gone */
-// .project-card .card-body {
-//   padding: 0 !important;
-//   margin: 0 !important;
-//   min-height: 0 !important;
-// }
+/* Optional: tighten padding since the title is gone */
+.project-card .card-body {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+}
 
 /* ---------- Hide titles / descriptions / card body ---------- */
 .project-card .card-body {
