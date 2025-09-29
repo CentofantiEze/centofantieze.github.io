@@ -37,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-la-cosecha",
+        },{id: "projects-pescadores",
+          title: 'Pescadores',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_pescadores.html";
+            },},{id: "projects-la-cosecha",
           title: 'La Cosecha',
           description: "",
           section: "Projects",handler: () => {
@@ -62,6 +67,26 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_Brest.html";
+            },},{id: "projects-el-beso",
+          title: 'El Beso',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_El_beso.html";
+            },},{id: "projects-piano-vache",
+          title: 'Piano Vache',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_Le_piano_vache.html";
+            },},{id: "projects-lucerne",
+          title: 'Lucerne',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_Lucerne.html";
+            },},{id: "projects-jarron-con-flores",
+          title: 'Jarron con flores',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_Flores.html";
             },},{
         id: 'social-email',
         title: 'email',
