@@ -1,11 +1,11 @@
-// .painting-img {
-//   max-height: 80vh; /* limit vertical size */
-//   width: auto; /* keep natural aspect ratio */
-//   height: auto; /* let browser handle scaling */
-//   display: block; /* allows margin auto to work */
-//   margin-left: auto; /* center horizontally */
-//   margin-right: auto;
-// }
+.painting-img {
+  max-height: 80vh; /* limit vertical size */
+  width: auto; /* keep natural aspect ratio */
+  height: auto; /* let browser handle scaling */
+  display: block; /* allows margin auto to work */
+  margin-left: auto; /* center horizontally */
+  margin-right: auto;
+}
 
 // /* Hide project titles on gallery grid */
 // .card-title {
