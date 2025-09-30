@@ -49,3 +49,18 @@
 .project-card {
   margin-bottom: 0.6rem !important;
 }
+
+/* Remove the card body entirely in project/gallery cards */
+.project-card .card-body {
+  display: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 0 !important;
+}
+
+/* Ensure no ghost space remains */
+.project-card .card {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
