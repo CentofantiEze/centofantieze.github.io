@@ -62,11 +62,41 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_Pilares_de_la_creacion.html";
+            },},{id: "projects-etretat",
+          title: 'Etretat',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15_Etretat.html";
+            },},{id: "projects-hockney",
+          title: 'Hockney',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/16_Hockney.html";
+            },},{id: "projects-martin-y-fabian",
+          title: 'Martin y Fabian',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/17_Martin_y_Fabian.html";
+            },},{id: "projects-pescador",
+          title: 'Pescador',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/18_Marinero%20copy%202.html";
+            },},{id: "projects-terres-du-tco",
+          title: 'Terres du TCO',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/19_TCO_terres.html";
             },},{id: "projects-la-cosecha",
           title: 'La Cosecha',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_La_cosecha.html";
+            },},{id: "projects-flamencos",
+          title: 'Flamencos',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/20_Flamencos.html";
             },},{id: "projects-girasoles",
           title: 'Girasoles',
           description: "",
