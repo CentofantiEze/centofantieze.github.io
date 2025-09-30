@@ -1,3 +1,6 @@
+/* Custom styles for centofantieze.github.io */
+
+/* ---------- Center and limit size of painting images ---------- */
 .painting-img {
   max-height: 80vh; /* limit vertical size */
   width: auto; /* keep natural aspect ratio */
@@ -7,27 +10,23 @@
   margin-right: auto;
 }
 
-/* Hide project titles on gallery grid */
-.card-title {
-  display: none !important;
-}
-.card-description {
-  display: none !important;
-}
+/* ===========================
+   Gallery: remove title/desc
+   and make square tiles
+   =========================== */
 
-/* Optional: tighten padding since the title is gone */
+/* hide title and description */
+.project-card .card-title,
+.project-card .card-description,
 .project-card .card-body {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
-  min-height: 0 !important;
 }
 
-/* ---------- Hide titles / descriptions / card body ---------- */
-.project-card .card-body {
-  display: none !important;
-}
-
-/* remove any background/padding the card body left behind */
+/* make the card container visually neutral */
 .project-card .card {
   background: transparent !important;
   box-shadow: none !important;
@@ -35,26 +34,18 @@
   margin: 0 !important;
 }
 
-/* ---------- Make thumbnail images square and cropped ---------- */
-/* Target common selectors used by al-folio; keep broad to match your version */
+/* square tile using aspect-ratio (modern browsers) */
 .project-card img,
-.project-card .card-img-top,
-.project-card .figure img {
-  display: block;
+.project-card .card-img-top {
+  display: block !important;
   width: 100% !important;
   height: 100% !important;
-  aspect-ratio: 1 / 1; /* makes a square tile */
-  object-fit: cover; /* crop to fill the square while preserving center */
-  object-position: center;
+  aspect-ratio: 1 / 1 !important; /* turns the image element into a square tile */
+  object-fit: cover !important; /* crop to fill while keeping center */
+  object-position: center !important;
 }
 
-/* tighten grid spacing */
+/* fallback tighter spacing */
 .project-card {
-  margin-bottom: 0.8rem;
-}
-
-/* if grid columns have inner padding, you can remove it */
-.project-card .card > .card-img-top,
-.project-card .card > img {
-  padding: 0;
+  margin-bottom: 0.6rem !important;
 }
