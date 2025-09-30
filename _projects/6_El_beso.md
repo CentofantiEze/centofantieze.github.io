@@ -3,7 +3,7 @@ layout: page
 title: El Beso
 img: assets/img/art_thumb/El_beso.jpg
 importance: 6
-category: portraits
+category: people
 ---
 
 <div class="row">

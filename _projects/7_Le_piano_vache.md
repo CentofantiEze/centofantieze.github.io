@@ -3,7 +3,7 @@ layout: page
 title: Piano Vache
 img: assets/img/art_thumb/Le_piano_vache.jpg
 importance: 7
-category: landscapes
+category: people
 ---
 
 <div class="row">

@@ -3,7 +3,7 @@ layout: page
 title: Pescadores
 img: assets/img/art_thumb/Pescadores.jpg
 importance: 10
-category: landscapes
+category: people
 ---
 
 <div class="row">

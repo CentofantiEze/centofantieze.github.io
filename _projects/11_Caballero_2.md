@@ -3,7 +3,7 @@ layout: page
 title: Caballero
 img: assets/img/art_thumb/Caballero_2.jpg
 importance: 11
-category: portraits
+category: people
 ---
 
 <div class="row">

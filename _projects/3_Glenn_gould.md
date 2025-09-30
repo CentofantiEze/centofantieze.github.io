@@ -3,7 +3,7 @@ layout: page
 title: Glenn Gould
 img: assets/img/art_thumb/Glenn_Gould.jpg
 importance: 3
-category: abstract
+category: other
 ---
 
 <div class="row">

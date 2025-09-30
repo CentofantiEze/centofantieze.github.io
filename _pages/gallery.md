@@ -5,7 +5,7 @@ permalink: /projects/
 description: A gallery of my paintings and artwork.
 nav: true
 nav_order: 5
-display_categories: [landscapes, still_life, portraits, abstract]
+display_categories: [landscapes, still_life, people, other]
 horizontal: false
 ---
 
