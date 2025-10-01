@@ -81,7 +81,7 @@ ninja.data = [{
           title: 'Pescador',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/18_Marinero%20copy%202.html";
+              window.location.href = "/projects/18_Marinero.html";
             },},{id: "projects-terres-du-tco",
           title: 'Terres du TCO',
           description: "",
@@ -97,6 +97,31 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/20_Flamencos.html";
+            },},{id: "projects-hondarribia",
+          title: 'Hondarribia',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/21_Hondarribia.html";
+            },},{id: "projects-koln",
+          title: 'Koln',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/22_Koln.html";
+            },},{id: "projects-santa-maria-della-salute",
+          title: 'Santa Maria della Salute',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/23_Santa_Maria_della_Salute%20.html";
+            },},{id: "projects-venecia-i",
+          title: 'Venecia I',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/24_Venecia_sombras%20copy.html";
+            },},{id: "projects-venecia-ii",
+          title: 'Venecia II',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/25_Venecia_color.html";
             },},{id: "projects-girasoles",
           title: 'Girasoles',
           description: "",
