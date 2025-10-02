@@ -12,5 +12,5 @@ category: people
     </div>
 </div>
 <div class="caption">
-    Copia de retrato de Pablo Picasso. Acrilico sobre lienzo.
+    Copia de retrato de Dora Maar, Pablo Picasso. Acrílico sobre lienzo.
 </div>

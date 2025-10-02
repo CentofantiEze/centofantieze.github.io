@@ -3,7 +3,7 @@ layout: page
 title: Flor de manta
 img: assets/img/art_thumb/Gaillardia.jpg
 importance: 27
-category: still_life
+category: flowers
 ---
 
 <div class="row">

@@ -3,7 +3,7 @@ layout: page
 title: Jarron con flores
 img: assets/img/art_thumb/Flores.jpg
 importance: 9
-category: still_life
+category: flowers
 ---
 
 <div class="row">

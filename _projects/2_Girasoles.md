@@ -3,7 +3,7 @@ layout: page
 title: Girasoles
 img: assets/img/art_thumb/Girasoles.jpg
 importance: 2
-category: still_life
+category: flowers
 ---
 
 <div class="row">
