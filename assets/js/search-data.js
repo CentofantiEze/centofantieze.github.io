@@ -177,8 +177,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_Le_piano_vache.html";
-            },},{id: "projects-lucerne",
-          title: 'Lucerne',
+            },},{id: "projects-engstlensee",
+          title: 'Engstlensee',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_Lucerne.html";
