@@ -111,22 +111,47 @@ ninja.data = [{
           title: 'Santa Maria della Salute',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/23_Santa_Maria_della_Salute%20.html";
+              window.location.href = "/projects/23_Santa_Maria_della_Salute.html";
             },},{id: "projects-venecia-i",
           title: 'Venecia I',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/24_Venecia_sombras%20copy.html";
+              window.location.href = "/projects/24_Venecia_sombras.html";
             },},{id: "projects-venecia-ii",
           title: 'Venecia II',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/25_Venecia_color.html";
+            },},{id: "projects-notre-dame",
+          title: 'Notre Dame',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/26_Notre_Dame.html";
+            },},{id: "projects-flor-de-manta",
+          title: 'Flor de manta',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/27_Gaillardia.html";
+            },},{id: "projects-p-cezanne",
+          title: 'P. Cezanne',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/28_Cezanne.html";
+            },},{id: "projects-picasso",
+          title: 'Picasso',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/29_Picasso.html";
             },},{id: "projects-girasoles",
           title: 'Girasoles',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_Girasoles.html";
+            },},{id: "projects-punta-del-diablo",
+          title: 'Punta del Diablo',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/30_Punta_del_diablo.html";
             },},{id: "projects-glenn-gould",
           title: 'Glenn Gould',
           description: "",
