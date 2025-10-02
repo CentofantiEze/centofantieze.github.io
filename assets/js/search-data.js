@@ -137,8 +137,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/28_Cezanne.html";
-            },},{id: "projects-picasso",
-          title: 'Picasso',
+            },},{id: "projects-dora-maar",
+          title: 'Dora Maar',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/29_Picasso.html";
