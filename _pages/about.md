@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD student working on machine learning (ML) and artificial intelligence (AI) methods for optical and radio astronomical imaging.
+I am a third-year PhD student working on machine learning (ML) and artificial intelligence (AI) methods for optical and radio astronomical imaging.
 
 <h2>Research Interests</h2>
 
