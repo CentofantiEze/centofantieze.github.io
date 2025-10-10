@@ -152,6 +152,36 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/30_Punta_del_diablo.html";
+            },},{id: "projects-pissarro",
+          title: 'Pissarro',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/31_Pissarro_Pontoise.html";
+            },},{id: "projects-faro-santa-maria",
+          title: 'Faro Santa Maria',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/32_Faro_Santa_Maria.html";
+            },},{id: "projects-villebon",
+          title: 'Villebon',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/33_Villebon.html";
+            },},{id: "projects-torino",
+          title: 'Torino',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/34_Torino.html";
+            },},{id: "projects-parque-rodo",
+          title: 'Parque Rodo',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/35_Parque_Rodo.html";
+            },},{id: "projects-jeux-olympiques",
+          title: 'Jeux Olympiques',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/36_Jeux_Olympiques_Paris.html";
             },},{id: "projects-glenn-gould",
           title: 'Glenn Gould',
           description: "",
