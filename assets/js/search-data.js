@@ -182,6 +182,21 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/36_Jeux_Olympiques_Paris.html";
+            },},{id: "projects-caracoles",
+          title: 'Caracoles',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/37_Caracoles.html";
+            },},{id: "projects-telas",
+          title: 'Telas',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/38_Telas.html";
+            },},{id: "projects-ballenato",
+          title: 'Ballenato',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/39_Ballenato.html";
             },},{id: "projects-glenn-gould",
           title: 'Glenn Gould',
           description: "",
