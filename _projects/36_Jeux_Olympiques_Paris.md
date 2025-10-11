@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jeux Olympiques 
+title: Jeux Olympiques
 img: assets/img/art_thumb/Jeux_Olympiques_Paris.jpg
 importance: 36
 category: urban
