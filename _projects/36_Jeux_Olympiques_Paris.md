@@ -12,5 +12,5 @@ category: urban
     </div>
 </div>
 <div class="caption">
-    Inaguracion des Jeux Olympiques de Paris 2024. Acuarela sobre papel.
+    Inauguration des Jeux Olympiques de Paris 2024. Aquarelle sur papier.
 </div>
