@@ -5,7 +5,7 @@ permalink: /projects/
 description: A gallery of my paintings and artwork.
 nav: true
 nav_order: 5
-display_categories: [landscapes, flowers, people, urban, other]
+display_categories: [flowers, landscapes, people, urban, other]
 horizontal: false
 ---
 
