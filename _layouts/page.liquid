@@ -18,6 +18,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.collection == "projects" %}
+    {% include project-navigation.liquid %}
+  {% endif %}
+
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">

@@ -1,0 +1,54 @@
+{% comment %} Project prev/next navigation include
+   - Determines the previous and next project based on site.projects sorted by importance
+   - Renders Prev / Next buttons and enables left/right arrow keyboard navigation
+{% endcomment %}
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign total_projects = sorted_projects | size %}
+
+{% assign current_index = nil %}
+{% for p in sorted_projects %}
+  {% if p.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% assign prev_project = sorted_projects[prev_index] %}
+    {% assign next_project = sorted_projects[next_index] %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index != nil %}
+  <div class="project-nav d-flex justify-content-between align-items-center my-3">
+    <div>
+      {% if prev_project %}
+        <a class="btn btn-outline-primary" href="{{ prev_project.url | relative_url }}">&lt; previous</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+    </div>
+
+    <div class="text-muted small">{{ current_index | plus: 1 }} / {{ total_projects }}</div>
+
+    <div>
+      {% if next_project %}
+        <a class="btn btn-outline-primary" href="{{ next_project.url | relative_url }}">next &gt;</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+    </div>
+  </div>
+
+  <script>
+  (function(){
+    var prev = "{% if prev_project %}{{ prev_project.url | relative_url }}{% endif %}";
+    var next = "{% if next_project %}{{ next_project.url | relative_url }}{% endif %}";
+    document.addEventListener('keydown', function(e){
+      // Ignore key events if focus is in an input or textarea
+      var tag = (document.activeElement && document.activeElement.tagName) || '';
+      if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+      if (e.key === 'ArrowLeft' && prev) { window.location = prev; }
+      if (e.key === 'ArrowRight' && next) { window.location = next; }
+    });
+  })();
+  </script>
+{% endif %}
