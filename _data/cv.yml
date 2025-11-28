@@ -48,7 +48,7 @@
       institution: OPIS Group, Inria, Saclay, France
       year: 2022 - 2023
       description:
-        - Implementation of novel deep unfolding algorithms for inverse problems.
+        - Implementation of novel deep unrolling algorithms for inverse problems.
         - Python, PyTorch, HPC.
 
     - title: M2 Internship
