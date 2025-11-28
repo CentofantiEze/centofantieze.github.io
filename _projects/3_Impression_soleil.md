@@ -3,7 +3,7 @@ layout: page
 title: Impression, soleil levant
 img: assets/img/art_thumb/Monet_Impression_Sunrise.jpg
 importance: 3
-category: landscape
+category: landscapes
 ---
 
 <div class="row">
