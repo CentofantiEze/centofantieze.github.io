@@ -251,7 +251,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/ezequiel-centofanti-4404b7189", "_blank");
+          window.open("https://www.linkedin.com/in/ezequiel-centofanti", "_blank");
         },
       },{
         id: 'social-orcid',
