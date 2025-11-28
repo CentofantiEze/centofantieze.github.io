@@ -1,12 +1,13 @@
-{% comment %} Project prev/next navigation include
-   - Determines the previous and next project based on site.projects sorted by importance
-   - Renders Prev / Next buttons and enables left/right arrow keyboard navigation
+{% comment %}
+  Project prev/next navigation include
+  - Determines the previous and next project based on site.projects sorted by importance
+  - Renders Prev / Next buttons and enables left/right arrow keyboard navigation
 {% endcomment %}
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | sort: 'importance' %}
 {% assign total_projects = sorted_projects | size %}
 
-{% assign current_index = nil %}
+{% assign current_index = null %}
 {% for p in sorted_projects %}
   {% if p.url == page.url %}
     {% assign current_index = forloop.index0 %}
@@ -17,7 +18,7 @@
   {% endif %}
 {% endfor %}
 
-{% if current_index != nil %}
+{% if current_index != null %}
   <div class="project-nav d-flex justify-content-between align-items-center my-3">
     <div>
       {% if prev_project %}
@@ -39,16 +40,20 @@
   </div>
 
   <script>
-  (function(){
-    var prev = "{% if prev_project %}{{ prev_project.url | relative_url }}{% endif %}";
-    var next = "{% if next_project %}{{ next_project.url | relative_url }}{% endif %}";
-    document.addEventListener('keydown', function(e){
-      // Ignore key events if focus is in an input or textarea
-      var tag = (document.activeElement && document.activeElement.tagName) || '';
-      if (tag === 'INPUT' || tag === 'TEXTAREA') return;
-      if (e.key === 'ArrowLeft' && prev) { window.location = prev; }
-      if (e.key === 'ArrowRight' && next) { window.location = next; }
-    });
-  })();
+    (function () {
+      var prev = '{% if prev_project %}{{ prev_project.url | relative_url }}{% endif %}';
+      var next = '{% if next_project %}{{ next_project.url | relative_url }}{% endif %}';
+      document.addEventListener('keydown', function (e) {
+        // Ignore key events if focus is in an input or textarea
+        var tag = (document.activeElement && document.activeElement.tagName) || '';
+        if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+        if (e.key === 'ArrowLeft' && prev) {
+          window.location = prev;
+        }
+        if (e.key === 'ArrowRight' && next) {
+          window.location = next;
+        }
+      });
+    })();
   </script>
 {% endif %}
