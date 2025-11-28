@@ -197,11 +197,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/39_Ballenato.html";
-            },},{id: "projects-glenn-gould",
-          title: 'Glenn Gould',
+            },},{id: "projects-impression-soleil-levant",
+          title: 'Impression, soleil levant',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_Glenn_gould.html";
+              window.location.href = "/projects/3_Impression_soleil.html";
             },},{id: "projects-embarcaciones",
           title: 'Embarcaciones',
           description: "",
