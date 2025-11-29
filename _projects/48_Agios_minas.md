@@ -2,7 +2,7 @@
 layout: page
 title: Agios Minas
 img: assets/img/art_thumb/Agios_minas.jpg
-importance: 49
+importance: 48
 category: urban
 ---
 

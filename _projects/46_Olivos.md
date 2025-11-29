@@ -2,7 +2,7 @@
 layout: page
 title: Olivos
 img: assets/img/art_thumb/Olivos.jpg
-importance: 48
+importance: 46
 category: landscapes
 ---
 

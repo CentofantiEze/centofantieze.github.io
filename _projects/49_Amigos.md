@@ -2,7 +2,7 @@
 layout: page
 title: Amigos
 img: assets/img/art_thumb/Amigos.jpg
-importance: 50
+importance: 49
 category: people
 ---
 

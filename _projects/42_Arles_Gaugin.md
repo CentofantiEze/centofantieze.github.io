@@ -2,7 +2,7 @@
 layout: page
 title: Arles Gaugin
 img: assets/img/art_thumb/Arles_Gaugin.jpg
-importance: 46
+importance: 42
 category: landscapes
 ---
 
