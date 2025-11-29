@@ -107,11 +107,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/22_Koln.html";
-            },},{id: "projects-santa-maria-della-salute",
-          title: 'Santa Maria della Salute',
+            },},{id: "projects-monet-saint-lazare",
+          title: 'Monet Saint Lazare',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/23_Santa_Maria_della_Salute.html";
+              window.location.href = "/projects/23_Monet_Saint_Lazare.html";
             },},{id: "projects-venecia-i",
           title: 'Venecia I',
           description: "",
@@ -202,6 +202,56 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_Impression_soleil.html";
+            },},{id: "projects-almendro-en-flor",
+          title: 'Almendro en flor',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/40_Van_Gogh_Almendro.html";
+            },},{id: "projects-vallorcine-riviere",
+          title: 'Vallorcine Riviere',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/41_Vallorcine_Riviere.html";
+            },},{id: "projects-arles-gaugin",
+          title: 'Arles Gaugin',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/42_Arles_Gaugin.html";
+            },},{id: "projects-venus-et-adonis",
+          title: 'Venus et Adonis',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/43_Venus_et_Adonis.html";
+            },},{id: "projects-gaffel-am-dom",
+          title: 'Gaffel am Dom',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/44_Gaffel_am_Dom.html";
+            },},{id: "projects-caballero-1",
+          title: 'Caballero 1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/45_Caballero_1.html";
+            },},{id: "projects-olivos",
+          title: 'Olivos',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/46_Olivos.html";
+            },},{id: "projects-santa-maria-della-salute",
+          title: 'Santa Maria della Salute',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/47_Santa_Maria_della_Salute.html";
+            },},{id: "projects-agios-minas",
+          title: 'Agios Minas',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/48_Agios_minas.html";
+            },},{id: "projects-amigos",
+          title: 'Amigos',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/49_Amigos.html";
             },},{id: "projects-embarcaciones",
           title: 'Embarcaciones',
           description: "",
