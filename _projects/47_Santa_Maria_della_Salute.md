@@ -2,7 +2,7 @@
 layout: page
 title: Santa Maria della Salute
 img: assets/img/art_thumb/Santa_Maria_della_Salute.jpg
-importance: 23
+importance: 47
 category: urban
 ---
 
