@@ -11,38 +11,31 @@
 {% for p in sorted_projects %}
   {% if p.url == page.url %}
     {% assign current_index = forloop.index0 %}
-    {% assign prev_index = current_index | minus: 1 %}
-    {% assign next_index = current_index | plus: 1 %}
-    {% assign prev_project = sorted_projects[prev_index] %}
-    {% assign next_project = sorted_projects[next_index] %}
   {% endif %}
 {% endfor %}
 
 {% if current_index != null %}
+  {% assign prev_index = current_index | minus: 1 | plus: total_projects | modulo: total_projects %}
+  {% assign next_index = current_index | plus: 1 | modulo: total_projects %}
+  {% assign prev_project = sorted_projects[prev_index] %}
+  {% assign next_project = sorted_projects[next_index] %}
+
   <div class="project-nav d-flex justify-content-between align-items-center my-3">
     <div>
-      {% if prev_project %}
-        <a class="btn btn-outline-primary" href="{{ prev_project.url | relative_url }}">&lt; previous</a>
-      {% else %}
-        <span></span>
-      {% endif %}
+      <a class="btn btn-outline-primary" href="{{ prev_project.url | relative_url }}">&lt; previous</a>
     </div>
 
     <div class="text-muted small">{{ current_index | plus: 1 }} / {{ total_projects }}</div>
 
     <div>
-      {% if next_project %}
-        <a class="btn btn-outline-primary" href="{{ next_project.url | relative_url }}">next &gt;</a>
-      {% else %}
-        <span></span>
-      {% endif %}
+      <a class="btn btn-outline-primary" href="{{ next_project.url | relative_url }}">next &gt;</a>
     </div>
   </div>
 
   <script>
     (function () {
-      var prev = '{% if prev_project %}{{ prev_project.url | relative_url }}{% endif %}';
-      var next = '{% if next_project %}{{ next_project.url | relative_url }}{% endif %}';
+      var prev = '{{ prev_project.url | relative_url }}';
+      var next = '{{ next_project.url | relative_url }}';
       document.addEventListener('keydown', function (e) {
         // Ignore key events if focus is in an input or textarea
         var tag = (document.activeElement && document.activeElement.tagName) || '';
