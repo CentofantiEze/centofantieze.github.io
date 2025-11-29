@@ -15,52 +15,30 @@
    and make square tiles
    =========================== */
 
-/* hide title and description */
-.project-card .card-title,
-.project-card .card-description,
-.project-card .card-body {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
 /* make the card container visually neutral */
 .project-card .card {
   background: transparent !important;
-  box-shadow: none !important;
+  border: none !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
 /* square tile using aspect-ratio (modern browsers) */
-.project-card img,
-.project-card .card-img-top {
-  display: block !important;
-  width: 100% !important;
-  height: 100% !important;
-  aspect-ratio: 1 / 1 !important; /* turns the image element into a square tile */
-  object-fit: cover !important; /* crop to fill while keeping center */
-  object-position: center !important;
+.project-card figure {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin: 0; /* figures have default margin */
+}
+
+.project-card figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* fallback tighter spacing */
 .project-card {
   margin-bottom: 0.6rem !important;
-}
-
-/* Remove the card body entirely in project/gallery cards */
-.project-card .card-body {
-  display: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 0 !important;
-}
-
-/* Ensure no ghost space remains */
-.project-card .card {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
 }
