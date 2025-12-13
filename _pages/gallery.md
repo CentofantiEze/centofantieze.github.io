@@ -2,7 +2,7 @@
 layout: page
 title: Gallery
 permalink: /projects/
-description: A gallery of my paintings and artwork.
+description: Drawing and painting are two of my favorite ways to spend my free time. This gallery showcases a selection of my work, inspired by the great masters I admire, as well as the moments and places I’ve captured on paper.
 nav: true
 nav_order: 5
 display_categories: [flowers, landscapes, people, urban, other]
