@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-gallery",
           title: "Gallery",
-          description: "A gallery of my paintings and artwork.",
+          description: "Drawing and painting are two of my favorite ways to spend my free time. This gallery showcases a selection of my work, inspired by the great masters I admire, as well as the moments and places I’ve captured on paper.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -127,11 +127,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/26_Notre_Dame.html";
-            },},{id: "projects-flor-de-manta",
-          title: 'Flor de manta',
+            },},{id: "projects-girasoles-de-monet",
+          title: 'Girasoles de Monet',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/27_Gaillardia.html";
+              window.location.href = "/projects/27_Girasoles_Monet.html";
             },},{id: "projects-p-cezanne",
           title: 'P. Cezanne',
           description: "",
@@ -157,11 +157,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/31_Pissarro_Pontoise.html";
-            },},{id: "projects-faro-santa-maria",
-          title: 'Faro Santa Maria',
+            },},{id: "projects-vallorcine-montagne",
+          title: 'Vallorcine Montagne',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/32_Faro_Santa_Maria.html";
+              window.location.href = "/projects/32_Vallorcine_Montagne.html";
             },},{id: "projects-villebon",
           title: 'Villebon',
           description: "",
@@ -172,11 +172,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/34_Torino.html";
-            },},{id: "projects-parque-rodo",
-          title: 'Parque Rodo',
+            },},{id: "projects-bateau-phare",
+          title: 'Bateau Phare',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/35_Parque_Rodo.html";
+              window.location.href = "/projects/35_Bateau_Phare.html";
             },},{id: "projects-jeux-olympiques",
           title: 'Jeux Olympiques',
           description: "",
