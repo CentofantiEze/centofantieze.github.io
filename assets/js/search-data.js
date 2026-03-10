@@ -132,11 +132,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/27_Girasoles_Monet.html";
-            },},{id: "projects-p-cezanne",
-          title: 'P. Cezanne',
+            },},{id: "projects-ajedrez",
+          title: 'Ajedrez',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/28_Cezanne.html";
+              window.location.href = "/projects/28_Ajedrez.html";
             },},{id: "projects-dora-maar",
           title: 'Dora Maar',
           description: "",
@@ -277,6 +277,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/53_Van_Gogh_pont_langlois.html";
+            },},{id: "projects-engstlensee",
+          title: 'Engstlensee',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/54_Lucerne.html";
             },},{id: "projects-campo-de-girasoles",
           title: 'Campo de girasoles',
           description: "",
@@ -292,11 +297,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_Le_piano_vache.html";
-            },},{id: "projects-engstlensee",
-          title: 'Engstlensee',
+            },},{id: "projects-quartier-chinois",
+          title: 'Quartier chinois',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_Lucerne.html";
+              window.location.href = "/projects/8_Quartier_chinois.html";
             },},{id: "projects-jarron-con-flores",
           title: 'Jarron con flores',
           description: "",
