@@ -3,7 +3,7 @@ layout: page
 title: Puerto de Heraklion
 img: assets/img/art_thumb/Puerto_de_Creta.jpg
 importance: 13
-category: landscapes
+category: urban
 ---
 
 <div class="row">
