@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Pilares de la Creación
-img: assets/img/art_thumb/Pilares_de_la_creacion.jpg
+img: assets/img/art_thumb/Pilares_de_la_creacion.png
 importance: 14
 category: landscapes
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/art_full/Pilares_de_la_creacion.jpg" title="Pilares de la Creación" class="img-fluid rounded z-depth-1 painting-img" %}
+        {% include figure.liquid loading="eager" path="assets/img/art_full/Pilares_de_la_creacion.png" title="Pilares de la Creación" class="img-fluid rounded z-depth-1 painting-img" %}
     </div>
 </div>
 <div class="caption">
