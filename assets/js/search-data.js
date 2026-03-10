@@ -62,11 +62,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_Pilares_de_la_creacion.html";
-            },},{id: "projects-etretat",
-          title: 'Etretat',
+            },},{id: "projects-pilares-de-la-creación",
+          title: 'Pilares de la Creación',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/15_Etretat.html";
+              window.location.href = "/projects/15_Pilares_de_la_creacion_sombra.html";
             },},{id: "projects-hockney",
           title: 'Hockney',
           description: "",
