@@ -257,6 +257,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_Embarcaciones.html";
+            },},{id: "projects-etretat",
+          title: 'Etretat',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/50_Etretat.html";
             },},{id: "projects-campo-de-girasoles",
           title: 'Campo de girasoles',
           description: "",
