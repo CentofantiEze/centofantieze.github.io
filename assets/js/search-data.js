@@ -262,6 +262,21 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/50_Etretat.html";
+            },},{id: "projects-kokoschka",
+          title: 'Kokoschka',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/51_Kokoschka.html";
+            },},{id: "projects-palmar-de-rocha",
+          title: 'Palmar de Rocha',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/52_Palmar_Rocha.html";
+            },},{id: "projects-pont-de-langlois",
+          title: 'Pont de Langlois',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/53_Van_Gogh_pont_langlois.html";
             },},{id: "projects-campo-de-girasoles",
           title: 'Campo de girasoles',
           description: "",
