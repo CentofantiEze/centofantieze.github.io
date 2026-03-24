@@ -6,6 +6,21 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
+        {% if page.cv_pdf_french %}
+          <a
+            {% if page.cv_pdf_french contains '://' %}
+              href="{{ page.cv_pdf_french }}"
+            {% else %}
+              href="{{ page.cv_pdf_french | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+            title="CV en français"
+          >
+            <i class="fa-solid fa-file-pdf"></i> FR
+          </a>
+        {% endif %}
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
@@ -16,8 +31,9 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
+            title="CV in English"
           >
-            <i class="fa-solid fa-file-pdf"></i>
+            <i class="fa-solid fa-file-pdf"></i> EN
           </a>
         {% endif %}
       </h1>
@@ -57,6 +73,21 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
+        {% if page.cv_pdf_french %}
+          <a
+            {% if page.cv_pdf_french contains '://' %}
+              href="{{ page.cv_pdf_french }}"
+            {% else %}
+              href="{{ page.cv_pdf_french | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+            title="CV en français"
+          >
+            <i class="fa-solid fa-file-pdf"></i> FR
+          </a>
+        {% endif %}
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
@@ -67,8 +98,9 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
+            title="CV in English"
           >
-            <i class="fa-solid fa-file-pdf"></i>
+            <i class="fa-solid fa-file-pdf"></i> EN
           </a>
         {% endif %}
       </h1>
