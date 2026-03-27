@@ -2,7 +2,7 @@
 layout: page
 title: Quartier chinois
 img: assets/img/art_thumb/Quartier_chinois.jpg
-importance: 8
+importance: 3
 category: landscapes
 ---
 
