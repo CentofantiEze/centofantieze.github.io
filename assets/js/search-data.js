@@ -157,11 +157,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/31_Pissarro_Pontoise.html";
-            },},{id: "projects-vallorcine-montagne",
-          title: 'Vallorcine Montagne',
+            },},{id: "projects-impression-soleil-levant",
+          title: 'Impression, soleil levant',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/32_Vallorcine_Montagne.html";
+              window.location.href = "/projects/32_Impression_soleil.html";
             },},{id: "projects-villebon",
           title: 'Villebon',
           description: "",
@@ -197,11 +197,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/39_Ballenato.html";
-            },},{id: "projects-impression-soleil-levant",
-          title: 'Impression, soleil levant',
+            },},{id: "projects-quartier-chinois",
+          title: 'Quartier chinois',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_Impression_soleil.html";
+              window.location.href = "/projects/3_Quartier_chinois.html";
             },},{id: "projects-almendro-en-flor",
           title: 'Almendro en flor',
           description: "",
@@ -297,11 +297,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_Le_piano_vache.html";
-            },},{id: "projects-quartier-chinois",
-          title: 'Quartier chinois',
+            },},{id: "projects-horsehead-nebula",
+          title: 'Horsehead Nebula',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_Quartier_chinois.html";
+              window.location.href = "/projects/8_Horsehead_nebula.html";
             },},{id: "projects-jarron-con-flores",
           title: 'Jarron con flores',
           description: "",
