@@ -3,22 +3,52 @@
 
 % @string{aps = {American Physical Society,}}
 
-@software{centofanti2025_argosim,
-  bibtex_show = {true},
-	abbr = {argosim},
-  preview = {argosim2025_2.png},
-  author = {Ezequiel Centofanti and Emma Ayçoberry and Samuel Farrens and Samuel Gullin and Manal Bensahli and Jean-Luc Starck and John Antoniadis},
-  title = {argosim: a Python package for radio interferometric simulations (submitted)},
-	abstract = "{In this paper, we present argosim a Python package for simulating radio interferometric observations. The argosim package is modular, lightweight and compatible with all major operating systems. Its computational backend is written in JAX which allows for greatly accelerated performance as well as the advantage of being fully differentiable. We detail the main argosim modules and describe how to use them to generate an observation, from the antenna positions to the cleaned image. The package is a fully open-source project, and its code is publicly available on GitHub.}",
-  version = {0.0.3},
-  year = {2025},
-  url = {https://github.com/ARGOS-telescope/argosim},
-  code = {https://github.com/ARGOS-telescope/argosim},
+@misc{centofanti2026radiowl,
+      bibtex_show = {true},
+      abbr = {Shear Inference},
+      preview = {shear_inference.png},
+      title={SHINE: Shear inference environment - Generative forward modelling for radio weak gravitational lensing}, 
+      author={Ezequiel Centofanti and Benjamin Remy and Emma Ayçoberry and François Lanusse and Jean-Luc Starck and Samuel Farrens},
+	    abstract = "{
+          Next-generation radio interferometers, such as SKA, will observe the radio sky with unprecedented sensitivity and resolution. Their wide sky coverage will enable weak gravitational lensing studies using radio data, which not only complement optical observations but also probe higher redshifts. However, traditional shear estimation methods—based on measuring the ellipticity of observed galaxies—are not directly applicable to radio interferometric data. Interferometric observations are acquired in the Fourier domain, where galaxy images are delocalised, making shape measurements non-trivial. Furthermore, deconvolution methods such as CLEAN and its variants can introduce systematic errors when converting observations to the image domain, biasing shear estimates. To address these challenges, we propose a cosmic shear inference method based on forward generative modelling, which avoids explicit shape measurements. Our forward model simulates galaxy images, applies the shear transformation, and includes the instrumental response of the radio interferometer, with the likelihood explicitly defined in Fourier space. Using Monte Carlo sampling algorithms, we estimate the posterior distribution of the cosmic shear conditioned on a set of galaxy observations that share a common shear. We obtain unbiased shear estimates with sub-percent accuracy when applied to parametric galaxy simulations. We compare our method to state-of-the-art shear estimators, demonstrating a reduction in uncertainty of up to $3$ times and no apparent multiplicative bias. Furthermore, we carry out coverage tests to show that our posterior estimates are well calibrated. We then show that applying this parametric model to COSMOS galaxies with realistic morphologies introduces a bias in the shear estimate over $10\sigma$. Finally, we demonstrate that, by incorporating a generative forward model based on a variational autoencoder trained on real galaxy images, we can mitigate this bias to below the $2\sigma$ level.
+        }",
+      year={2026},
+      url={Submitted to A\&A for review},
+      code = {https://github.com/CentofantiEze/Radio_WL_Generative_Forward_Model},
+}
+
+@misc{centofanti2026phaseretrieval,
+      bibtex_show = {true},
+      abbr = {Phase Retrieval},
+      preview = {phase_retrieval.png},
+      title={Point spread function wavefront recovery from in-focus stellar observations}, 
+      author={Ezequiel Centofanti and Samuel Farrens and Jean-Luc Starck and Tobias I. Liaudat},
+	    abstract = "{
+        Recovering the wavefront error (WFE) field of an optical system from intensity in-focus observations is a challenging inverse problem with broad implications for telescope point spread function (PSF) modelling. Accurate WFE recovery enables both precise PSF modelling and direct insight into the state of the telescope optics, facilitating the detection of potential malfunctions. Recently, non-parametric PSF models have shown promising performance in modelling complex optical systems in space-based telescopes. WaveDiff is a semi-parametric PSF model that represents the PSF in wavefront space by combining parametric and learnable features with a differentiable forward optical model. This parameterisation enables phase retrieval from in-focus observations by exploiting the spatial variation of the PSF across the field of view (FOV). The original version of WaveDiff achieves outstanding PSF recovery results in pixel space; however, the recovered WFE is far from the ground truth, with a relative error of around 30%. In this paper, we present a new optimisation scenario that bridges WaveDiff’s parametric and non-parametric components through wavefront feature projection, yielding a substantial improvement in WFE recovery and making WaveDiff the first demonstrated method to combine wide-field WFE recovery, in-focus-only polychromatic observations, and non-parametric wavefront features in a single framework. We show that incorporating wavefront projections and increasing the number of optimisation cycles enables WaveDiff to recover the WFE with an error of approximately 3% using only noisy, undersampled, in-focus observations. This represents a tenfold improvement over the original model while further reducing the pixel-space error. The code to reproduce the results of this article is publicly available at https://github.com/tobias-liaudat/wf-psf/tree/v1.4.0.
+        }",
+      year={2026},
+      url={Submitted to A\&A for review},
+      code = {https://github.com/tobias-liaudat/wf-psf/tree/v1.4.0},
+}
+
+@misc{centofanti2025_argosim,
+      bibtex_show = {true},
+      abbr = {argosim},
+      preview = {argosim2025_2.png},
+      title={argosim: a Python package for radio interferometric simulations}, 
+      author={Ezequiel Centofanti and Emma Ayçoberry and Samuel Farrens and Samuel Gullin and Manal Bensahli and Jean-Luc Starck and John Antoniadis},
+	    abstract = "{In this paper, we present argosim a Python package for simulating radio interferometric observations. The argosim package is modular, lightweight and compatible with all major operating systems. Its computational backend is written in JAX which allows for greatly accelerated performance as well as the advantage of being fully differentiable. We detail the main argosim modules and describe how to use them to generate an observation, from the antenna positions to the cleaned image. The package is a fully open-source project, and its code is publicly available on GitHub.}",
+      year={2025},
+      eprint={2606.25573},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.IM},
+      url={https://arxiv.org/abs/2606.25573},
+      code = {https://github.com/ARGOS-telescope/argosim},
 }
 
 @article{centofanti2025,
 	bibtex_show = {true},
-	abbr = {StellarClassification},
+	abbr = {Stellar Classification},
   preview = {centofanti2025.png},
   author = {{Centofanti}, Ezequiel and {Farrens}, Samuel and {Starck}, Jean-Luc and {Liaudat}, Tobías I. and {Szapiro}, Alex and {Pollack}, Jennifer},
   title = "{Breaking the degeneracy in stellar spectral classification from single wide-band images}",
@@ -38,7 +68,7 @@
 
 @INPROCEEDINGS{deValle2023,
   bibtex_show = {true},
-  abbr = {DeepUnrolling},
+  abbr = {Deep Unrolling},
   preview = {deValle2023.png},
   author={de Valle, Cécile and Centofanti, Ezequiel and Chouzenoux, Emilie and Pesquet, Jean-Christophe},
   booktitle={2023 31st European Signal Processing Conference (EUSIPCO)}, 
