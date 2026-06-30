@@ -18,10 +18,10 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "All my code is open source and available on GitHub.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/https:/github.com/CentofantiEze";
           },
         },{id: "nav-cv",
           title: "CV",
