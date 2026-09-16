@@ -27,8 +27,11 @@
         Recovering the wavefront error (WFE) field of an optical system from intensity in-focus observations is a challenging inverse problem with broad implications for telescope point spread function (PSF) modelling. Accurate WFE recovery enables both precise PSF modelling and direct insight into the state of the telescope optics, facilitating the detection of potential malfunctions. Recently, non-parametric PSF models have shown promising performance in modelling complex optical systems in space-based telescopes. WaveDiff is a semi-parametric PSF model that represents the PSF in wavefront space by combining parametric and learnable features with a differentiable forward optical model. This parameterisation enables phase retrieval from in-focus observations by exploiting the spatial variation of the PSF across the field of view (FOV). The original version of WaveDiff achieves outstanding PSF recovery results in pixel space; however, the recovered WFE is far from the ground truth, with a relative error of around 30%. In this paper, we present a new optimisation scenario that bridges WaveDiff’s parametric and non-parametric components through wavefront feature projection, yielding a substantial improvement in WFE recovery and making WaveDiff the first demonstrated method to combine wide-field WFE recovery, in-focus-only polychromatic observations, and non-parametric wavefront features in a single framework. We show that incorporating wavefront projections and increasing the number of optimisation cycles enables WaveDiff to recover the WFE with an error of approximately 3% using only noisy, undersampled, in-focus observations. This represents a tenfold improvement over the original model while further reducing the pixel-space error. The code to reproduce the results of this article is publicly available at https://github.com/tobias-liaudat/wf-psf/tree/v1.4.0.
         }",
       year={2026},
-      url={Submitted to A\&A for review},
+      archivePrefix={arXiv},
+      arxiv = {2607.01032},DOI= "10.48550/arXiv.2607.01032",
+      url={https://doi.org/10.48550/arXiv.2607.01032},
       code = {https://github.com/tobias-liaudat/wf-psf/tree/v1.4.0},
+      journal = {A&A},
 }
 
 @misc{centofanti2025_argosim,
@@ -41,9 +44,11 @@
       year={2025},
       eprint={2606.25573},
       archivePrefix={arXiv},
+      arxiv = {2606.25573},DOI= "10.48550/arXiv.2606.25573",
       primaryClass={astro-ph.IM},
-      url={https://arxiv.org/abs/2606.25573},
+      url={https://doi.org/10.48550/arXiv.2606.25573},
       code = {https://github.com/ARGOS-telescope/argosim},
+      journal = {A&A},
 }
 
 @article{centofanti2025,
